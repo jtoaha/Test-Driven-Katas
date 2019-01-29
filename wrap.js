@@ -5,5 +5,7 @@ const wrap = (line, maxLen) => {
     return line.split(' ').join('\n')
   }
 }
+
+
 module.exports = wrap;
 

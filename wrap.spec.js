@@ -18,7 +18,7 @@ describe('wrap', () => {
 
   it('Returns wrapped string', () => {
 
-    expect(wrap("the cat is brown", 4)).to.equal("the\ncat\nis\nbrown");
+    expect(wrap("the cat is brown", 4)).to.equal("the-\ncat-\nsits\ndown");
 
   });
 
